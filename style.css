@@ -1,0 +1,28 @@
+body{
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: black;
+}
+.question {
+    font-weight: 600;
+}
+.answers {
+     margin-bottom: 20px;
+}
+.answers label{
+     display: block;
+}
+#submit{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    background-color: white;
+    color: purple;
+    border: 0px;
+    border-radius: 3px;
+    padding: 20px;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+#submit:hover{
+    background-color: rebeccapurple;
+}
