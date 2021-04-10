@@ -1,28 +1,73 @@
-body{
-    font-size: 20px;
+.container {
+    text-align: center;
+}
+
+body {
+    background-color:white;
+}
+
+a {
     font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+
+h1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: lighter;
+    text-align: center;
+    margin: 20px;
+    font-size: 32pt;
     color: black;
 }
-.question {
-    font-weight: 600;
-}
-.answers {
-     margin-bottom: 20px;
-}
-.answers label{
-     display: block;
-}
-#submit{
+
+p {
     font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 20px;
-    background-color: white;
-    color: purple;
-    border: 0px;
-    border-radius: 3px;
-    padding: 20px;
-    cursor: pointer;
-    margin-bottom: 20px;
+    text-align: center;
 }
-#submit:hover{
-    background-color: rebeccapurple;
+
+#start-button {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    color: white;
+    background-color: rgb(116, 14, 116);
+}
+
+ul {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+}
+
+button {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: rgb(116, 14, 116);
+    color: white;
+    font-size: 18pt;
+    padding: 10px;
+    margin: 20px;
+}
+
+.navbar {
+    padding: 20px;
+}
+
+#countdown {
+    padding: 20px;
+    background-color: white;
+    color: black;
+    font-size: large;
+    width: 70px;
+    float: right;
+    text-align: center;
+}
+
+.jumbotron {
+    margin-top: 20px;
+}
+
+.lead {
+    font-size: 12pt;
+}
+
+#question-number {
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
